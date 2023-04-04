@@ -73,7 +73,7 @@ if game.PlaceId == 1962086868 then
         PremiumOnly = false
     })
 
-    local Section = Tab:AddSection({
+    local Section = TowerTab:AddSection({
 	Name = "Teleport"
     })
     TowerTab:AddButton({
@@ -92,7 +92,7 @@ if game.PlaceId == 1962086868 then
         end    
     })
 
-    local Section = Tab:AddSection({
+    local Section = TowerTab:AddSection({
 	Name = "Other"
     })
 
@@ -111,7 +111,7 @@ if game.PlaceId == 1962086868 then
         PremiumOnly = false
     })
 
-    local Section = Tab:AddSection({
+    local Section = PlayerTab:AddSection({
 	Name = "Hitbox"
     })
 
@@ -124,7 +124,7 @@ if game.PlaceId == 1962086868 then
         end    
     })
 
-    local Section = Tab:AddSection({
+    local Section = PlayerTab:AddSection({
 	Name = "Humanoid"
     })
 
